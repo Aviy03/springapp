@@ -16,7 +16,7 @@ public class AzureApplication {
 	@Autowired
 	private EmployeeDao dao;
 
-	@GetMapping("/")
+	@GetMapping("/home")
 	public String Home() {
 		return "Hi!" + "Spring boot Application successfully deployed on azure cloud";
 	}
